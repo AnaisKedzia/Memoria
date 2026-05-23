@@ -1,6 +1,7 @@
-# Memoria : 
+# Présentation
 
 Cette application web est basée sur une version simplifiée du concept de révision espacée, qui consiste à revoir des informations avant un certain laps de temps afin d'améliorer la mémorisation, et ainsi assimiler des connaissances sur le long terme. 
+L'application est disponible dans les langues suivantes : Français, anglais, coréen.
 En l'état actuel, l'application n'est adaptée que pour les écrans d'une taille standard de 1920×1080 minimum.
 Le design de la page d'accueil doit être revu pour le déploiement d'une version mobile. 
 
@@ -47,11 +48,19 @@ Raccourcis clavier (révision):
 - Flèche droite : bonne réponse
 - Flèche gauche : mauvaise réponse
 
-## Composants d'aide au tests: 
+## Test : 
+
+
+Tous les rapports de bug ont été rédigés après que l'application web ait atteint un stade de développement satisfaisant, 
+c'est-à-dire après l'implémentation de toutes les fonctionnalités clés (Sauvegardes, révision, lancement du serveur, traduction, prévision des révisions).
+
+Des automatisation de tests ont été réalisés avec l'outil Cypress pour confirmer le bon comportement de l'application, et pour répondre au cas de tests rédigés dans le dossier QA.
+
+Outils conçu pour les test (non présent dans la version finale)  : 
 - Augmentation de la date de révision dans debug-tools.js pour tester les révisions.
 L'augmentation de la date de révision artificiellement provoque des erreurs dans la prévision des révision, car celle-ci est basée sur la date du système. 
 - Suppression des données
-- Création d'un deck par défaut
+- Création d'un deck par défaut pour faciliter les tests
 
 ## Dépendances : 
 - HTML5
@@ -65,10 +74,32 @@ L'augmentation de la date de révision artificiellement provoque des erreurs dan
 - AOS (Animate on scroll), utilisée pour l'UI dans index.html
 - Plotly
 
-## Rapports de bugs :   
-Tous les rapports de bug ont été rédigés après que l'application web ait atteint un stade de développement satisfaisant, 
-c'est-à-dire après l'implémentation de toutes les fonctionnalités clés (Sauvegardes, révision, lancement du serveur, traduction, prévision des révisions).
+## Screenshots
+
+Page d'accueil français - coréen
+
+![intro-fr](screenshots/intro-fr.png)  
+
+![intro-kr](screenshots/intro-kr.png)
+
+
+Menu
+
+![menu
+](<screenshots/création paquet.png>)
+
+Révision
+
+![révision](screenshots/révision.png)
 
 ## Assets et crédits : 
 - Toutes les icônes utilisées sont libres de droit (Icons8)
 - Les illustrations sont créées par l'auteur
+
+## Auteur
+
+
+Développé par Anaïs KEDZIA  
+anais.kedzia@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/anais-kedzia/  )  
+[GitHub](https://github.com/AnaisKedzia )   
