@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title data-i18n="create-card">New cards</title>
+</head>
+
+<body class="page">
+    <div class="page">
+        <nav class="menu-navigation">
+            <button class="menu-navigation_back-button" id="backMenu" data-i18n="back-menu">Back to menu</button>
+            <select class="select-lang2" id="lang">
+                <option>Français</option>
+                <option>English</option>
+                <option>한국어</option>
+            </select>
+        </nav>
+
+        <div class="create-card" id="createCard">
+            <h1 class="menu-titles"  data-i18n="create-card-for"">Create cards for</h1>
+            <h2 class="menu-subtitles" id="deckTitle"></h2>
+            <div class="create-card__input" id="createCardInput">
+                <textarea placeholder="What is the capital of France ?" id="front" data-i18n="" data-i18n-attr="placeholder:question-example"></textarea>
+                <textarea placeholder="Paris" id="back" data-i18n="" data-i18n-attr="placeholder:answer-example"></textarea>
+            </div>
+            <button id="addCard" class="default-button" data-i18n="save-card">Save card</button>
+        </div>
+    </div>
+
+    <script src="/Scripts/new-cards.js" type="module"></script>
+    <script src="/Scripts/lang.js" type="module"></script>
+</body>
+</html>

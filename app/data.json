@@ -1,0 +1,173 @@
+{
+  "Culture Générale": {
+    "name": "Culture Générale",
+    "cards": [
+      {
+        "front": "Quel est le jeu vidéo le plus vendu au monde ?",
+        "back": "Minecraft ",
+        "creationDate": "2026-05-23T18:05:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quels sont les quatres hormones du bonheur ?",
+        "back": "La dopamine, la serotonine, l'endorphine, l'ocytocine",
+        "creationDate": "2026-05-23T18:06:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "A partir de quel ingrédient est fabriqué le saké ?",
+        "back": "Du riz",
+        "creationDate": "2026-05-23T18:07:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quel personnage emblématique de Nintendo porte généralement une tunique verte et une épée ?",
+        "back": " Link",
+        "creationDate": "2026-05-23T18:08:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quels sont les 5 sens de l'humain ?",
+        "back": "La vue, l'ouïe, l'odorat, le goût, le toucher",
+        "creationDate": "2026-05-23T18:09:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "En quelle année se sont tenus les premiers jeux Olympiques modernes ?",
+        "back": "En 1896 à Athènes",
+        "creationDate": "2026-05-23T18:10:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Qu'est-ce que la nomophobie ?",
+        "back": " La peur d'être séparé de son téléphone portable",
+        "creationDate": "2026-05-23T18:11:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quand est-ce que s'est déroulée la bataille de Waterloo ?",
+        "back": "Le 18 Juin 1815 ",
+        "creationDate": "2026-05-23T18:12:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Qui a été le président de la France de 1995 à 2007 ?",
+        "back": "Jacques Chirac",
+        "creationDate": "2026-05-23T18:13:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quel est l'animal terrestre le plus grand ?",
+        "back": "La giraffe",
+        "creationDate": "2026-05-23T18:14:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quel est la signification de DYI ?",
+        "back": "Do It Yourself, qui fait référence aux objets créés soi même",
+        "creationDate": "2026-05-23T18:15:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quelle ville a pour surnom Big Apple ?",
+        "back": "New York",
+        "creationDate": "2026-05-23T18:16:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Qu'est-ce que l'échelle de Mohs ?",
+        "back": "Une échelle pour mesurer la dureté des minéraux",
+        "creationDate": "2026-05-23T18:17:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quel artisan fabrique ou répare les violins ?",
+        "back": "Le luthier",
+        "creationDate": "2026-05-23T18:18:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Combien faut-il de temps à la lumière du soleil pour atteindre la terre ?",
+        "back": "8 minutes",
+        "creationDate": "2026-05-23T18:19:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      }
+    ],
+    "review": [
+      {
+        "front": "Quelle est la future capitale de l'Indonésie ?",
+        "back": "Nusantara",
+        "creationDate": "2026-05-23T18:00:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Qu'est-ce qu'un poisson anadrome ?",
+        "back": "Poisson qui vie en mer, mais migre en eau douce pour pondre",
+        "creationDate": "2026-05-23T18:01:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quelle mer se situe entre l'Europe, le Caucase et l'Anatolie ?",
+        "back": "La mer noire",
+        "creationDate": "2026-05-23T18:02:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Quel est le passeport le plus puissant au monde ?",
+        "back": "Singapour avec 195 destinations sans visa",
+        "creationDate": "2026-05-23T18:03:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      },
+      {
+        "front": "Qui est le nouveau président de la Corée du Sud, élu en 2025 ?",
+        "back": "Lee Jae-Myung",
+        "creationDate": "2026-05-23T18:04:02.969Z",
+        "reviewDate": "2026-05-23T18:58:02.969Z",
+        "status": "New",
+        "accumulator": 1
+      }
+    ],
+    "dailyLimit": 5,
+    "newDailyCount": 5,
+    "resetDate": 1779573600969,
+    "dailyReviewed": 0
+  }
+}

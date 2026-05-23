@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title data-i18n="flashcards">Flashcards</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="navigation__items">
+                <button data-target="intro" data-i18n="introduction">Introduction</button>
+                <button data-target="use" data-i18n="use">How to use</button>
+                <button data-target="cardStatus" data-i18n="card-status">Cards maturity</button>
+                <button data-target="start" data-i18n="start">Start</button>
+                <div>
+                    <select class="select-lang" id="lang">
+                        <option>Français</option>
+                        <option>English</option>
+                        <option>한국어</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="intro" id="intro">
+            <div class="intro__description">
+                    <div><h1 data-i18n="intro-title">What are flashcards ? </h1> <span>📝</span></div>
+                    <p data-i18n="intro-description-1"> Flashcards are part of a system called spaced repetition,
+                         designed to improve retention of information and long term memory </p>
+                    <br>
+                    <br>
+                    <p data-i18n="intro-description-2">
+                        Flashcards have questions and answers. They are reviewed on a regular basis, right before the information is forgotten.
+                    </p>
+            </div>
+
+            <div class = "intro__display">
+                <div class = "intro__display--img">
+                    <img src="/Images/coquelicot.png" alt="coquelicot">
+                    <img src="/Images/sparks.png" alt="sparks" data-aos="zoom-in">
+                </div>
+                <div class = "intro__display--p">
+                     <p class="intro_display--p" data-i18n="intro-image">Planting the seeds of knowledge </p>
+                </div>
+             </div>
+    </section>
+
+    <section class="use-tab" id="use">
+        <div class="use-tab__title">
+            <h2 class="main-titles" data-i18n="use-intro">How to use our flashcards ?</h2>
+        </div>
+    
+        <div class="use-tab__content">
+            <div class="use-tab__steps">
+                <h1 data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100">1.</h1>
+                <div class="use-tab__steps--details">
+                    <div><h2 data-i18n="first-step">Create deck</h2><span>🗳️</span></div>
+                    <p data-i18n="first-step-description">Decks are containers for cards, it can be divided by subject. A deck is necessary to start creating cards.</p>
+                </div>
+            </div>
+    
+    
+            <div class="use-tab__steps" >
+                <h1 data-aos="flip-right" data-aos-duration="1000" data-aos-delay="400">2.</h1>
+                <div class="use-tab__steps--details">
+                    <div><h2 data-i18n="second-step">Create cards</h2><span>✍</span></div>
+                    <p data-i18n="second-step-description">Cards have a front and back. On the back is the piece of information you want to memorize. The front should have a keyword or a question.</p>
+                </div>
+            </div>
+    
+            <div class="use-tab__steps">
+                <h1 data-aos="flip-right" data-aos-duration="1000" data-aos-delay="700">3.</h1>
+                <div class="use-tab__steps--details">
+                    <div><h2 data-i18n="third-step">Start review</h2><span>📚</span></div>
+                    <p data-i18n="third-step-description">Test yourself on what you remember, each card have a unique review date that is adjusted after each review.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-maturity" id="cardStatus">
+        <div class="cards-maturity__title">
+            <h2 class="main-titles" data-i18n="card-maturiy">Cards maturity</h2>
+        </div>
+        <div class="cards-maturity__content" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+            <div class="cards-maturity__content-step">
+                <img src="/Images/new.png">
+                <h2 data-i18n="new-card">New</h2>
+                <p data-i18n="new-card-description">Cards you haven't been exposed to yet</p>
+            </div>
+            <div class="cards-maturity__content-step" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <img src="/Images/familiar.png">
+                <h2 data-i18n="familiar-card">Familiar</h2>
+                <p data-i18n="familiar-card-description">Cards you are still in the process of learning. If neglected, they can be
+                    forgotten</p>
+            </div>
+            <div class="cards-maturity__content-step" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
+                <img src="/Images/mature.png">
+                <h2 data-i18n="mature-card">Mature</h2>
+                <p data-i18n="mature-card-description">Cards with a high rentention rate and will likely not be forgotten</p>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="get-started" id="start">
+        <h1 data-aos="fade-down" data-aos-duration="1000" data-i18n="learning-journey">Learning is a never ending journey</h1>
+        <p data-i18n="learning-description">Whether you're a student, a professional expanding your knowledge, or a casual learner, make the process more intuitive.</p>
+        <p data-i18n="learning-description-2">Plant the seeds of knowledge now : </p>
+        <button id="getStarted" data-i18n="get-started">Get started</button>
+    </section>
+
+    <script src="/Scripts/index.js" type="module"></script>
+    <script src="/Scripts/lang.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>

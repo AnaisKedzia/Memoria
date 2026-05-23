@@ -1,0 +1,51 @@
+.create-card {
+    text-align: center;
+    font-family: var(--my-font);
+    padding: 50px;
+    margin-top: 7em;
+}
+
+.create-card__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+textarea::placeholder {
+    color: rgb(196, 196, 196);
+    font-family: var(--my-font);
+    font-size: 18px;
+}
+
+.save-card {
+    font-family: var(--my-font);
+}
+
+.invalid-input-message {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.validation-message {
+    position: fixed;
+    left: 55%;
+    animation: floatUp 1s ease-out forwards;
+    color: var(--primary-color);
+}
+
+@keyframes floatUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+} 

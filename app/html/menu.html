@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet">
+    <title data-i18n="menu">Menu</title>
+</head>
+
+<body class="menu-display">
+    <header>
+        <nav class=menu-navigation>
+            <div id="dateMenu"></div>
+            <div>
+                <h1 id="intro">Memoria</h1>
+            </div>
+            <div>
+                <select class="select-lang2" id="lang">
+                    <option>Français</option>
+                    <option>English</option>
+                    <option>한국어</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="menu" id="menu">
+            <h1 class="menu-titles" data-i18n="welcome">Welcome</h1>
+
+            <div class="menu__options">
+                <button class="default-button default-button-menu" id="createDeckMenu" data-i18n="create-deck">Create deck</button>
+                <button class="default-button default-button-menu" id="checkReview" data-i18n="check-review">Check review</button>
+                <button class="default-button default-button-menu" id="manageCards" data-i18n="manage-cards">Manage cards</button>
+                <button class="default-button default-button-menu" id="storage" data-i18n="clear-storage">Clear storage</button>
+            </div>
+        </section>
+        <section class="deck-display" id="deck-display">
+        </section>
+    </main>
+    <script src="/Scripts\menu.js" type="module"></script>
+    <script src="/Scripts/lang.js" type="module"></script>
+</body>
+</html>

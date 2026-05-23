@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/css/style.css" rel="stylesheet">
+    <title data-i18n="card-management">Manage cards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="page">
+    <nav class="menu-navigation">
+        <button class="menu-navigation_back-button" id="backMenu" data-i18n="back-menu">Back to menu</button>
+        <select class="select-lang2" id="lang">
+            <option>Français</option>
+            <option>English</option>
+            <option>한국어</option>
+        </select>
+    </nav>
+
+    <section class="card-check">
+        <div class="card-check_card-display" id="card-display">
+            <textarea id="front" data-i18n="" data-i18n-attr="placeholder:no-card"></textarea>
+            <textarea id="back" data-i18n="" data-i18n-attr="placeholder:no-card"></textarea>
+            <button class="default-button inactive" id="modifyCard" data-i18n="modify">Modify</button>
+        </div>
+    
+        <div class="card-check_card-list" id="card-list">
+            <h1 data-i18n="card-list-select">Card list for :</h1>
+            <div id="deckListDiv">
+                <select id="deckList" class="deck-select"></select>
+                <img class="icon" src="/Images\edit.svg" id="edit">
+            </div>
+            <input type="text" class="search-bar" data-i18n="" data-i18n-attr="placeholder:search-card"
+                placeholder="Search card" id="searchBar">
+            <div class="card-display" id="cardDisplay">
+            </div>
+        </div>
+    </section>
+
+    <script src="/Scripts/manage-cards.js" type="module"></script>
+    <script src="/Scripts/lang.js" type="module"></script>
+</body>
+</html>

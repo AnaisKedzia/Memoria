@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <link rel="stylesheet" href="/css/style.css">
+    <title data-i18n="review">Review cards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</header>
+
+<body class="page">
+    <nav class="menu-navigation">
+        <button class="menu-navigation_back-button" id="backMenu" data-i18n="back-menu">Back to menu</button>
+        <select class="select-lang2" id="lang">
+            <option>Français</option>
+            <option>English</option>
+            <option>한국어</option>
+        </select>
+    </nav>
+
+    <div class="review-window" id="reviewWindow">
+        <h1 class="menu-titles" data-i18n="review-card">Review for</h1>
+        <h2 class="menu-subtitles" id="clickedDeck"></h2>
+        <div class="review-window__menu" id="cardDisplayMenu">
+            <div class="review-window__display" id="cardDisplay">
+                <p id="card"></p>
+            </div>
+        </div>
+        <button class="default-button" id="answer" data-i18n="show-answer">Show answer</button>
+    </div>
+
+    <script src="/Scripts/lang.js" type="module"></script>
+    <script src="/Scripts/review.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.review-window {
+    text-align: center;
+    font-family: var(--my-font);
+    padding: 50px;
+    justify-self: center;
+    margin-top: 3em;
+}
+
+.review-window__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.review-window__display {
+    width: 800px;
+    height: 500px;
+    background-color: var(--primary-color);
+    justify-self: center;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    align-content: center;
+}
+
+.review-window__display p {
+    font-size: 18px;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
